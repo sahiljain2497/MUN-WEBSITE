@@ -1,0 +1,244 @@
+html,
+body {
+    height: 100%;
+}
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: rgba(52, 59, 64, 0.9);
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#sidebar.active {
+    left: 0;
+}
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(52, 59, 64, 0.9);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#dismiss:hover {
+    background: rgba(52, 59, 64, 0.9);
+    color: #fff;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: rgba(52, 59, 64, 0.9);
+}
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    background: rgba(52, 59, 64, 0.9);
+}
+#sidebar ul li a:hover {
+    color: #333;
+    background: #fff;
+}
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: rgba(52, 59, 64, 0.9);
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #fff;
+}
+
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    background: black;
+    color: white;
+    padding-top: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0px;
+}
+.navbar a {
+    color: black;
+}
+.nav > li {
+    transition: ease-in 0.3s;
+    border-bottom: 3px solid black;
+}
+.nav > li > a {
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 9px;
+    padding-bottom: 23px;
+}
+.nav > li > a:focus,
+.nav > li> a:hover {
+    background: black;
+}
+.nav > li:hover:nth-child(1) {
+    border-bottom: 3px solid #668cff;
+}
+.nav > li:hover:nth-child(2) {
+    border-bottom: 3px solid #99b3ff;
+}
+.nav > li:hover:nth-child(3) {
+    border-bottom: 3px solid #668cff;
+}
+.nav > li:hover:nth-child(4) {
+    border-bottom: 3px solid #99b3ff;
+}
+.nav > li:hover:nth-child(5) {
+    border-bottom: 3px solid #668cff;
+}
+.nav > li:hover:nth-child(6) {
+    border-bottom: 3px solid #99b3ff;
+}
+.nav > li:hover:nth-child(7) {
+    border-bottom: 3px solid #668cff;
+}
+.nav > li:hover:nth-child(8) {
+    border-bottom: 3px solid #99b3ff;
+}
+.navbar-header {
+    padding-bottom: 5px;
+}
+.nav-div {
+    width: 100%;
+}
+#sidebarCollapse {
+    display: none;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    background: black;
+}
+.navbar-brand-icon {
+    display: none;
+}
+@media only screen and (max-width:700px) {
+    .navbar {
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .nav-div {
+        display: flex;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        padding-top: 18px;
+        font-size: 18px;
+        padding-left: 30px;
+        font-size: 18px;
+        color: black;
+    }
+    #sidebarCollapse {
+        display: block;
+    }
+    #logo-img {
+        top: 15px;
+        left: 50px;
+        width: 20px;
+        z-index: 998;
+    }
+    .navbar-brand-icon {
+        float: right;
+        font-size: 21px;
+        color: #969494;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline;
+    }
+    .navbar-header {
+        width: 90%;
+    }
+}
+
+/*adadada new css */
+
+.heading-div {
+    background: black;
+    color: white;
+    height: 400px;
+    width: 100%;
+}
+.tlt {
+    padding-top: 20px;
+    font-size: 90px;
+    transition: ease-in 1s;
+}
+#timer {
+    font-size: 60px;
+}
