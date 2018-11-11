@@ -102,7 +102,7 @@ a[data-toggle="collapse"] {
 }
 ul ul a {
     font-size: 0.9em !important;
-    padding-left: 30px !important;
+    /*    padding-left: 30px !important;*/
     background: #fff;
 }
 
@@ -394,6 +394,7 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #ff6600;
+    font-size: 18px;
 }
 .ugna-matrix {
     background: black;
@@ -403,6 +404,7 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #cca300;
+    font-size: 18px;
 }
 .hnc-matrix {
     background: black;
@@ -412,6 +414,7 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #668cff;
+    font-size: 18px;
 }
 .ccs-matrix {
     background: black;
@@ -421,6 +424,7 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #668cff;
+    font-size: 18px;
 }
 .mossad-matrix {
     background: black;
@@ -430,4 +434,9 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #0059b3;
+    font-size: 18px;
+}
+#sub-list-ul li a {
+    background: none;
+    padding-left: 0px;
 }

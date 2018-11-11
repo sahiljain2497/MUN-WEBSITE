@@ -102,7 +102,7 @@ a[data-toggle="collapse"] {
 }
 ul ul a {
     font-size: 0.9em !important;
-    padding-left: 30px !important;
+    /*    padding-left: 30px !important;*/
     background: #fff;
 }
 
@@ -371,4 +371,8 @@ a.socialIcon:hover,
 #sub-list-ul-1 li:hover {
     background: #999;
     color: white;
+}
+#sub-list-ul li a {
+    background: none;
+    padding-left: 0px;
 }

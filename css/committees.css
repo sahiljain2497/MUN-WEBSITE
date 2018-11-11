@@ -102,7 +102,7 @@ a[data-toggle="collapse"] {
 }
 ul ul a {
     font-size: 0.9em !important;
-    padding-left: 30px !important;
+    /*    padding-left: 30px !important;*/
     background: #fff;
 }
 
@@ -459,13 +459,17 @@ a.socialIcon:hover,
 }
 .learn-more-5 {
     background: white;
-    border: 2px solid;
+    border: 2px solid #668cff;
     border-radius: 5px;
     padding: 7px;
     padding-left: 25px;
     padding-right: 25px;
 }
 .learn-more-5:hover {
-    background: #fff;
+    background: #668cff;
     color: white;
+}
+#sub-list-ul li a {
+    background: none;
+    padding-left: 0px;
 }
