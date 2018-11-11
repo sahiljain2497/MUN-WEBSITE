@@ -71,6 +71,15 @@ $(document).ready(function () {
     $('#show-register-options').on("mouseleave", function () {
         $('#sub-list-ul').slideUp();
     })
+    $('#show-committee-options').on("click", function () {
+        $('#sub-list-ul-1').slideToggle();
+    })
+    $('#show-committee-options').on("mouseover", function () {
+        $('#sub-list-ul-1').slideDown();
+    })
+    $('#show-committee-options').on("mouseleave", function () {
+        $('#sub-list-ul-1').slideUp();
+    })
 
     setInterval(changeColor, 4000);
     //incSize = setInterval(increaseSize, 400);
