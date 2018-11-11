@@ -1,6 +1,11 @@
 var incSize;
 var decSize;
 
+function showMoreText(index) {
+    $('.show-more-' + index).css('display', 'none');
+    $('.hidden-text-' + index).css('display', 'block');
+}
+
 function random_rgb() {
     colors = ['8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
     r = colors[Math.floor(Math.random() * 8)];
@@ -57,10 +62,20 @@ $(document).ready(function () {
         }
         //         ,delay: 3, loop: true
     });
-    //setInterval(changeColor, 4000);
+    $('#show-register-options').on("click", function () {
+        $('#sub-list-ul').slideToggle();
+    })
+    $('#show-register-options').on("mouseover", function () {
+        $('#sub-list-ul').slideDown();
+    })
+    $('#show-register-options').on("mouseleave", function () {
+        $('#sub-list-ul').slideUp();
+    })
+
+    setInterval(changeColor, 4000);
     //incSize = setInterval(increaseSize, 400);
     // Set the date we're counting down to
-    var countDownDate = new Date("Jan 5, 2019 15:37:25").getTime();
+    var countDownDate = new Date("Jan 11, 2019 00:00:00").getTime();
 
     var x = setInterval(function () {
         var now = new Date().getTime();

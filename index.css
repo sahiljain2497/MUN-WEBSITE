@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
 html,
 body {
     height: 100%;
@@ -126,10 +127,22 @@ ul ul a {
     margin-bottom: 0px;
     border-radius: 0px;
     border: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar a {
     color: black;
 }
+
+/*submen*/
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/**************************/
+
 .nav > li {
     transition: ease-in 0.3s;
     border-bottom: 3px solid black;
@@ -240,5 +253,139 @@ ul ul a {
     transition: ease-in 1s;
 }
 #timer {
-    font-size: 60px;
+    font-size: 40px;
+}
+.mun-date {
+    font-size: 40px;
+    border-right: 1px solid;
+}
+.app-btn {
+    padding: 10px;
+    border: 2px solid #668cff;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    font-size: 16px;
+}
+.info-card {
+    border: 0px;
+    padding: 20px;
+    margin-top: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+.info-card p {
+    color: #666;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+.info-card .show-more {
+    color: #668cff;
+}
+.info-card .show-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hidden-text-1,
+.hidden-text-2,
+hidden-text-3 {
+    display: none;
+}
+.footer {
+    background-color: #333;
+    padding: 1%;
+    margin-top: 20px;
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+/* footer social icons */
+
+.social-network a.icoRss:hover {
+    background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+.social-network a.icoVimeo:hover {
+    background-color: #0590B8;
+}
+.social-network a.icoLinkedin:hover {
+    background-color: #8E43C6;
+    ;
+}
+.social-network a.icoRss:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoLinkedin:hover i {
+    color: #fff;
+}
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+.social-circle li i {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+#sub-list-ul {
+    background: white;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    min-width: 180px;
+    left: 0px;
+    font-size: 15px;
+    display: none;
+    color: #555;
+    cursor: pointer;
 }
