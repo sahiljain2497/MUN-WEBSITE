@@ -374,12 +374,12 @@ a.socialIcon:hover,
 }
 .committee-card-1 {
     text-align: center;
-    color: #777;
+    color: #ff6600;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .committee-card-2 {
-    color: #99b3ff;
+    color: #cca300;
     text-align: center;
     border: 1px solid lightgray;
     padding-bottom: 20px;
@@ -404,30 +404,30 @@ a.socialIcon:hover,
 }
 .learn-more-1 {
     background: white;
-    border: 2px solid #777;
+    border: 2px solid #ff6600;
     border-radius: 5px;
     padding: 7px;
     padding-left: 25px;
     padding-right: 25px;
-    color: #777;
+    color: #ff6600;
     font-size: 18px;
 }
 .learn-more-1:hover {
-    background: #777;
+    background: #ff6600;
     color: white;
 }
 .learn-more-2 {
     background: white;
-    border: 2px solid #99b3ff;
+    border: 2px solid #cca300;
     border-radius: 5px;
     padding: 7px;
     padding-left: 25px;
     padding-right: 25px;
-    color: #99b3ff;
+    color: #cca300;
     font-size: 18px;
 }
 .learn-more-2:hover {
-    background: #99b3ff;
+    background: #cca300;
     color: white;
 }
 .learn-more-3 {

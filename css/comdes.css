@@ -246,13 +246,15 @@ nav ul {
     background: black;
     color: white;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 .tlt {
     padding-top: 20px;
     font-size: 90px;
     transition: ease-in 1s;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 .footer {
     background-color: #333;
@@ -383,4 +385,49 @@ a.socialIcon:hover,
     color: #666;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
+}
+.aippm-matrix {
+    background: black;
+    border: 2px solid #ff6600;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #ff6600;
+}
+.ugna-matrix {
+    background: black;
+    border: 2px solid #cca300;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #cca300;
+}
+.hnc-matrix {
+    background: black;
+    border: 2px solid #668cff;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #668cff;
+}
+.ccs-matrix {
+    background: black;
+    border: 2px solid #668cff;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #668cff;
+}
+.mossad-matrix {
+    background: black;
+    border: 2px solid #0059b3;
+    border-radius: 5px;
+    padding: 7px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #0059b3;
 }

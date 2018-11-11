@@ -1,16 +1,3 @@
-function random_rgb() {
-    colors = ['8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
-    r = colors[Math.floor(Math.random() * 8)];
-    g = colors[Math.floor(Math.random() * 8)];
-    b = colors[Math.floor(Math.random() * 8)];
-    return '#' + r + g + b;
-};
-
-function changeColor() {
-    let color = random_rgb();
-    $('.color-text').css('color', color);
-}
-
 $(document).ready(function () {
     $('#dismiss, .overlay').on('click', function () {
         $('#sidebar').removeClass('active');
@@ -46,6 +33,4 @@ $(document).ready(function () {
     $('#show-committee-options').on("mouseleave", function () {
         $('#sub-list-ul-1').slideUp();
     })
-
-    setInterval(changeColor, 4000);
 })
