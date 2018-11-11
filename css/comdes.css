@@ -372,3 +372,15 @@ a.socialIcon:hover,
     background: #999;
     color: white;
 }
+.info-card {
+    border: 0px;
+    padding: 20px;
+    margin-top: 30px;
+    background: #e9ecef;
+    border-radius: 5px;
+}
+.info-card p {
+    color: #666;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
