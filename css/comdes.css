@@ -252,49 +252,7 @@ nav ul {
     padding-top: 20px;
     font-size: 90px;
     transition: ease-in 1s;
-}
-#timer {
-    font-size: 40px;
-}
-.mun-date {
-    font-size: 40px;
-    border-right: 1px solid;
-}
-.app-btn {
-    padding: 10px;
-    border: 2px solid #668cff;
-    border-radius: 3px;
-    background: none;
-    color: white;
-    font-size: 16px;
-}
-.app-btn:hover {
-    background: #668cff;
-    color: white;
-}
-.info-card {
-    border: 0px;
-    padding: 20px;
-    margin-top: 30px;
-    background: #e9ecef;
-    border-radius: 5px;
-}
-.info-card p {
-    color: #666;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-}
-.info-card .show-more {
-    color: #668cff;
-}
-.info-card .show-more:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-.hidden-text-1,
-.hidden-text-2,
-.hidden-text-3 {
-    display: none;
+    padding-bottom: 50px;
 }
 .footer {
     background-color: #333;
