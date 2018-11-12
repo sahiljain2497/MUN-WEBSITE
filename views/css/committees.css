@@ -21,7 +21,7 @@ a:focus {
     top: 0;
     left: -250px;
     height: 100vh;
-    z-index: 999;
+    z-index: 1031;
     background: rgba(52, 59, 64, 0.9);
     color: #fff;
     transition: all 0.3s;
@@ -246,7 +246,7 @@ nav ul {
     background: black;
     color: white;
     width: 100%;
-    margin-top: 60px;
+    margin-top: 54px;
 }
 .tlt {
     padding-top: 20px;
@@ -472,4 +472,39 @@ a.socialIcon:hover,
 #sub-list-ul li a {
     background: none;
     padding-left: 0px;
+}
+.footer-row {
+    padding-top: 2%;
+    font-size: 20px;
+    color: white;
+}
+.email-div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.location:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width:700px) {
+    .footer-row {
+        padding-top: 4%;
+        font-size: 16px;
+    }
+    .email-div {
+        width: 100%;
+        display: flex;
+    }
+    .tlt {
+        font-size: 40px;
+    }
+    .committee-card-1 {
+        margin-top: 50px;
+    }
+    .committee-card-2,
+    .committee-card-3,
+    .committee-card-4,
+    .committee-card-5 {
+        margin-top: 75px;
+    }
 }

@@ -21,7 +21,7 @@ a:focus {
     top: 0;
     left: -250px;
     height: 100vh;
-    z-index: 999;
+    z-index: 1031;
     background: rgba(52, 59, 64, 0.9);
     color: #fff;
     transition: all 0.3s;
@@ -250,8 +250,10 @@ nav ul {
 }
 .tlt {
     padding-top: 20px;
-    font-size: 90px;
-    transition: ease-in 1s;
+    font-size: 40px;
+    padding-left: 6%;
+    padding-right: 6%;
+    transition: 1s ease-in;
 }
 #timer {
     font-size: 40px;
@@ -392,6 +394,7 @@ a.socialIcon:hover,
     display: none;
     color: #555;
     cursor: pointer;
+    transition: 0.2s ease-in;
 }
 #sub-list-ul li:hover {
     background: #999;
@@ -417,4 +420,61 @@ a.socialIcon:hover,
 #sub-list-ul li a {
     background: none;
     padding-left: 0px;
+}
+.timer-big {
+    text-align: center;
+    font-size: 20px;
+}
+#timer-d,
+#timer-h,
+#timer-m,
+#timer-s {
+    font-weight: 501;
+}
+.footer-row {
+    padding-top: 2%;
+    font-size: 20px;
+    color: white;
+}
+.email-div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.location:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width:700px) {
+    .footer-row {
+        padding-top: 4%;
+        font-size: 16px;
+    }
+    .email-div {
+        width: 100%;
+        display: flex;
+    }
+    .heading-div {
+        margin-top: 54px;
+    }
+    .tlt {
+        font-size: 30px;
+    }
+    .mun-date {
+        border-right: 0px;
+        font-size: 24px;
+    }
+    .timer-big {
+        font-size: 16px;
+        padding: 0;
+    }
+    .app-btn {
+        font-size: 12px;
+    }
+    .info-card h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .info-card p {
+        font-size: 13px;
+    }
 }

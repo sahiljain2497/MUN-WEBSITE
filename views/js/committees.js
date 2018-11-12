@@ -29,23 +29,27 @@ $(document).ready(function () {
         //         ,delay: 3, loop: true
     });
     $('#show-register-options').on("click", function () {
-        $('#sub-list-ul').slideToggle();
+        $('#sub-list-ul').toggle();
     })
-    $('#show-register-options').on("mouseover", function () {
-        $('#sub-list-ul').slideDown();
-    })
-    $('#show-register-options').on("mouseleave", function () {
-        $('#sub-list-ul').slideUp();
-    })
+    $('#show-register-options').hover(function () {
+            console.log("adfad");
+            $('#sub-list-ul').show();
+        },
+        function () {
+            $('#sub-list-ul').hide();
+        })
+
     $('#show-committee-options').on("click", function () {
         $('#sub-list-ul-1').slideToggle();
     })
-    $('#show-committee-options').on("mouseover", function () {
-        $('#sub-list-ul-1').slideDown();
-    })
-    $('#show-committee-options').on("mouseleave", function () {
-        $('#sub-list-ul-1').slideUp();
-    })
+    $('#show-committee-options').hover(
+        function () {
+            $('#sub-list-ul-1').show()
+        },
+        function () {
+            $('#sub-list-ul-1').hide();
+        }
+    )
 
     setInterval(changeColor, 4000);
 })

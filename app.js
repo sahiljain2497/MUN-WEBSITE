@@ -33,5 +33,8 @@ app.get("/team", (req, res) => {
 app.get("/committees", (req, res) => {
     res.render("committees");
 })
+app.get("/resources", (req, res) => {
+    res.render("resources");
+})
 
 module.exports = app;
