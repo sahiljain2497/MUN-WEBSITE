@@ -386,6 +386,13 @@ a.socialIcon:hover,
     margin: 0 auto;
     display: flex;
 }
+.round-image {
+    border-radius: 150px;
+}
+.exe-name {
+    font-size: 20px;
+    font-weight: 600;
+}
 .location:hover {
     text-decoration: underline;
 }
