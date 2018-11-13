@@ -37,4 +37,10 @@ $(document).ready(function () {
             $('#sub-list-ul-1').hide();
         }
     )
+    $('#sub-list-2-opener').click(function () {
+        $('#sub-list-2').slideToggle();
+    })
+    $('#sub-list-3-opener').click(function () {
+        $('#sub-list-3').slideToggle();
+    })
 })

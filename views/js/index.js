@@ -84,10 +84,15 @@ $(document).ready(function () {
             $('#sub-list-ul-1').hide();
         }
     )
-
-    setInterval(changeColor, 4000);
-    //incSize = setInterval(increaseSize, 400);
-    // Set the date we're counting down to
+    $('#sub-list-2-opener').click(function () {
+        $('#sub-list-2').slideToggle();
+    })
+    $('#sub-list-3-opener').click(function () {
+            $('#sub-list-3').slideToggle();
+        })
+        //    setInterval(changeColor, 4000);
+        //incSize = setInterval(increaseSize, 400);
+        // Set the date we're counting down to
     var countDownDate = new Date("Jan 11, 2019 00:00:00").getTime();
 
     var x = setInterval(function () {

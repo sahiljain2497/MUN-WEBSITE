@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins');
+@import url('https://fonts.googleapis.com/css?family=KoHo|Raleway');
 html,
 body {
     height: 100%;
@@ -247,6 +248,7 @@ nav ul {
     color: white;
     width: 100%;
     margin-top: 54px;
+    font-family: 'Poppins', sans-serif;
 }
 .tlt {
     padding-top: 20px;
@@ -258,6 +260,7 @@ nav ul {
     background-color: #333;
     padding: 1%;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 ul.social-network {
     list-style: none;
@@ -373,36 +376,42 @@ a.socialIcon:hover,
     color: white;
 }
 .committee-card-1 {
+    font-family: 'KoHo', sans-serif;
     text-align: center;
     color: #ff6600;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .committee-card-2 {
+    font-family: 'KoHo', sans-serif;
     color: #cca300;
     text-align: center;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .committee-card-3 {
+    font-family: 'KoHo', sans-serif;
     text-align: center;
     color: #668cff;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .committee-card-4 {
+    font-family: 'KoHo', sans-serif;
     color: #0059b3;
     text-align: center;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .committee-card-5 {
+    font-family: 'KoHo', sans-serif;
     text-align: center;
     color: #668cff;
     border: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .learn-more-1 {
+    font-family: 'Raleway', sans-serif;
     background: white;
     border: 2px solid #ff6600;
     border-radius: 5px;
@@ -417,6 +426,7 @@ a.socialIcon:hover,
     color: white;
 }
 .learn-more-2 {
+    font-family: 'Raleway', sans-serif;
     background: white;
     border: 2px solid #cca300;
     border-radius: 5px;
@@ -431,6 +441,7 @@ a.socialIcon:hover,
     color: white;
 }
 .learn-more-3 {
+    font-family: 'Raleway', sans-serif;
     background: white;
     border: 2px solid #668cff;
     border-radius: 5px;
@@ -445,6 +456,7 @@ a.socialIcon:hover,
     color: white;
 }
 .learn-more-4 {
+    font-family: 'Raleway', sans-serif;
     background: white;
     border: 2px solid #0059b3;
     border-radius: 5px;
@@ -458,6 +470,7 @@ a.socialIcon:hover,
     color: white;
 }
 .learn-more-5 {
+    font-family: 'Raleway', sans-serif;
     background: white;
     border: 2px solid #668cff;
     border-radius: 5px;
@@ -507,4 +520,8 @@ a.socialIcon:hover,
     .committee-card-5 {
         margin-top: 75px;
     }
+}
+#sub-list-2,
+#sub-list-3 {
+    display: none;
 }

@@ -248,6 +248,7 @@ nav ul {
     width: 100%;
     height: 90%;
     margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
 }
 .tlt {
     padding-top: 10%;
@@ -260,6 +261,7 @@ nav ul {
     background-color: #333;
     padding: 1%;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 ul.social-network {
     list-style: none;
@@ -407,4 +409,8 @@ a.socialIcon:hover,
         font-size: 40px;
         padding-top: 30%;
     }
+}
+#sub-list-2,
+#sub-list-3 {
+    display: none;
 }

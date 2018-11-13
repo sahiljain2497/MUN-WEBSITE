@@ -247,6 +247,7 @@ nav ul {
     color: white;
     width: 100%;
     margin-top: 54px;
+    font-family: 'Poppins', sans-serif;
 }
 .tlt {
     padding-top: 20px;
@@ -257,6 +258,7 @@ nav ul {
 .footer {
     background-color: #333;
     padding: 1%;
+    font-family: 'Poppins', sans-serif;
     margin-top: 20px;
 }
 ul.social-network {
@@ -408,4 +410,15 @@ a.socialIcon:hover,
     .tlt {
         font-size: 40px;
     }
+    .col-md-6,
+    .col-md-4 {
+        margin-bottom: 15px;
+    }
+}
+#sub-list-2,
+#sub-list-3 {
+    display: none;
+}
+.team-image {
+    margin-bottom: 15px;
 }
