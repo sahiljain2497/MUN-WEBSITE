@@ -483,7 +483,3 @@ a.socialIcon:hover,
 #sub-list-3 {
     display: none;
 }
-.logo-div {
-    z-index: 1500;
-    position: fixed;
-}

@@ -485,3 +485,6 @@ a.socialIcon:hover,
 #sub-list-3 {
     display: none;
 }
+.round-image:hover {
+    opacity: 0.9;
+}
