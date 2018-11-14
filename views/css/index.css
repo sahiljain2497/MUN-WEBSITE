@@ -445,7 +445,19 @@ a.socialIcon:hover,
 .location:hover {
     text-decoration: underline;
 }
+#sub-list-2,
+#sub-list-3 {
+    display: none;
+}
+.mun-logo {
+    width: 200px;
+    height: 150px;
+}
 @media only screen and (max-width:700px) {
+    .mun-logo {
+        width: 150px;
+        height: 100px;
+    }
     .footer-row {
         padding-top: 4%;
         font-size: 16px;
@@ -455,7 +467,7 @@ a.socialIcon:hover,
         display: flex;
     }
     .heading-div {
-        margin-top: 54px;
+        margin-top: 50px;
     }
     .tlt {
         font-size: 30px;
@@ -478,8 +490,4 @@ a.socialIcon:hover,
     .info-card p {
         font-size: 13px;
     }
-}
-#sub-list-2,
-#sub-list-3 {
-    display: none;
 }

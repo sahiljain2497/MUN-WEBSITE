@@ -398,6 +398,20 @@ a.socialIcon:hover,
 .location:hover {
     text-decoration: underline;
 }
+#sub-list-2,
+#sub-list-3 {
+    display: none;
+}
+.team-image {
+    margin-bottom: 15px;
+}
+.mun-logo {
+    position: absolute;
+    position: fixed;
+    z-index: 1050;
+    top: 10px;
+    left: 30px;
+}
 @media only screen and (max-width:700px) {
     .footer-row {
         padding-top: 4%;
@@ -414,11 +428,10 @@ a.socialIcon:hover,
     .col-md-4 {
         margin-bottom: 15px;
     }
-}
-#sub-list-2,
-#sub-list-3 {
-    display: none;
-}
-.team-image {
-    margin-bottom: 15px;
+    .mun-logo {
+        width: 60px;
+        height: 45px;
+        top: 6px;
+        left: 80%;
+    }
 }
