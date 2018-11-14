@@ -196,6 +196,7 @@ nav ul {
     font-size: 20px;
     color: white;
     background: black;
+    padding-top: 15px;
 }
 .navbar-brand-icon {
     display: none;

@@ -61,6 +61,7 @@ function animator() {
             delay: 500
         }
     })
+    $('.mun-logo').fadeIn(3000);
 }
 
 $(document).ready(function () {
