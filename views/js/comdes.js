@@ -1,7 +1,7 @@
 function payRedirect() {
     var val = $('#reference-code').val();
-    window.location = 'https://paym.chitkara.edu.in/mun.php?id=b%27a3JpdGkgc2hhcm1hfHNoYXJtYWtyaXRpMDE3QGdtYWlsLmNvbXwx%27'
-        //window.location = 'https://paym.chitkara.edu.in/mun.php?id=' + val
+    //    window.location = 'https://paym.chitkara.edu.in/mun.php?id=b%27a3JpdGkgc2hhcm1hfHNoYXJtYWtyaXRpMDE3QGdtYWlsLmNvbXwx%27'
+    window.location = 'https://paym.chitkara.edu.in/mun.php?id=' + val
 }
 
 $(document).ready(function () {
