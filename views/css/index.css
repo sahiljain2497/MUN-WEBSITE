@@ -459,6 +459,13 @@ a.socialIcon:hover,
     padding-right: 10px;
     padding-left: 10px;
 }
+.chitkara-logo {
+    position: absolute;
+    position: fixed;
+    z-index: 1050;
+    top: 10px;
+    left: 30px;
+}
 @media only screen and (max-width:700px) {
     .mun-logo {
         width: 150px;
@@ -495,5 +502,11 @@ a.socialIcon:hover,
     }
     .info-card p {
         font-size: 13px;
+    }
+    .chitkara-logo {
+        width: 80px;
+        height: 42px;
+        top: 4px;
+        left: 73%;
     }
 }
