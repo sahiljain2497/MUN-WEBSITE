@@ -465,6 +465,7 @@ a.socialIcon:hover,
     padding-left: 25px;
     padding-right: 25px;
     color: #0059b3;
+    font-size: 18px;
 }
 .learn-more-4:hover {
     background: #0059b3;
@@ -478,6 +479,7 @@ a.socialIcon:hover,
     padding: 7px;
     padding-left: 25px;
     padding-right: 25px;
+    font-size: 18px;
 }
 .learn-more-5:hover {
     background: #668cff;
