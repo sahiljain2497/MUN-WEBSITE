@@ -270,6 +270,7 @@ nav ul {
     background: none;
     color: white;
     font-size: 16px;
+    width: 192px;
 }
 .app-btn:hover {
     background: #668cff;
@@ -495,6 +496,7 @@ a.socialIcon:hover,
     }
     .app-btn {
         font-size: 12px;
+        width: 150px;
     }
     .info-card h2 {
         font-size: 24px;
